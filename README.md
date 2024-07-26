@@ -1,70 +1,44 @@
-# Demo App
+# React Website Tutorial: ⭐Build Feature Rich Crypto Screener App with Tailwind CSS
 
-This project demonstrates how to use the [Garden SDK](https://docs.garden.finance/developers/sdk/) to create a simple dApp for swapping from WBTC to BTC.
+![GitHub stars](https://img.shields.io/github/stars/codebucks27/CryptoBucks-A-crypto-screener-application?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/codebucks27/CryptoBucks-A-crypto-screener-application?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
+![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
 
-> [!NOTE]
-> For better developer experience, we are conducting the swap on a local network, but you can do the same on Testnet or Mainnet by changing the parameters.
+This repository contains final code for Crypto Screener Application in ReactJS. <br />
 
-## Features
+For Demo and Final Code checkout following link👇: <br />
+[Crypto Screener Application in ReactJS](https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css) <br />
 
-- **Merry** : Provides a comprehensive environment for multichain operations. 
-- **Swap Interface**: Easily swap from WBTC to BTC.
-- **Transaction Management**: Track and display the latest transactions.
-- **Garden SDK Integration**: Uses Garden SDK to make the swap possible.
-- **State Management**: We use [zustand](https://zustand-demo.pmnd.rs/) for state management.
+Here are the starter code files👇: <br />
+https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application <br />
 
-## Environment Setup
+If you want to learn how to create it please follow below tutorial👇: <br />
+[Build Crypto Screener Application in React JS](https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css)
+[![YouTube Video Views](https://img.shields.io/youtube/views/JPlVb3t6kx8?style=social)](https://youtu.be/cT160dOzpGY)<br />
 
-To improve the developer experience, we will be using [Merry](https://docs.garden.finance/developers/merry/) to set up the multichain environment necessary for performing a swap. This setup includes all essential components such as the [Orderbook](https://docs.garden.finance/developers/fundamentals/orderbook/), [Filler](https://docs.garden.finance/developers/fundamentals/filler/), [Faucet](https://www.alchemy.com/faucets#faucets-switchback-right-light), and nodes for Bitcoin, Ethereum, and Arbitrum.
+<h3 align="left">▶ Support me via:</h3><br />
+<p><a href="https://www.buymeacoffee.com/CodeBucks" target="_blank"> <img  src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="50" width="210" alt="CodeBucks" ></img></a></p><br />
 
-1. Install Merry
+### Images of The Crypto Screener Website:
 
-```bash
-curl https://get.merry.dev | bash
-```
+![Crypto](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto.png)
+![Crypto-CryptoDetails](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto-CryptoDetails.png)
+![Trending](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Trending.png)
+![Saved](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Saved.png)
+![Trending-Mobile](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Trending-Mobile.png)
+![Crypto-CryptoDetails-Mobile](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto-CryptoDetails-Mobile.png)
+![Crypto-Mobile](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto-Mobile.png)
 
-2. Start Merry
+### Resources Used in This Project
 
-```bash
-# Start Merry with explorer
-merry go
-```
+- Fonts from https://fonts.google.com/ <br />
+- Icons from https://iconify.design/ <br />
+- API from https://www.coingecko.com/en/api <br />
 
-or
+### External Libraries used in this project:
 
-```bash
-# Start Merry without explorer
-merry go --headless
-```
+- [Tailwind css](https://tailwindcss.com/) <br />
+- [recharts](https://recharts.org/en-US/) <br />
 
-3. Fund your EVM address
 
-```bash
- merry faucet --to <EVM Address>
-```
-
-## Project Setup
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/gardenfi/demo-app
-cd demo-app
-```
-
-2. Install dependencies
-
-```bash
-bun install
-```
-
-3. Run the development server
-
-```bash
-bun run dev
-```
-
-The dApp should look something like this
-
-![final_dapp](https://github.com/Sushants-Git/demo-app/assets/100516354/bf939a2f-3ac1-40f6-882c-c779ee4928ee)
 
